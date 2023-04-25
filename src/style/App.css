@@ -90,9 +90,9 @@ li {
 .final-results {
   /* Center the div  */
   margin: 0 auto;
-  padding: 30px;
+
   /* Dimensions  */
-  width: 50%; /* Can be in percentage also. */
+  width: auto; /* Can be in percentage also. */
   height: auto;
   margin-top: 64px;
 
@@ -126,7 +126,7 @@ button {
   font-family: "Montserrat" sans-serif;
 }
 @media only screen and (max-width: 600px) {
-  .theory-wrapper{
+  .theory-wrapper {
     padding-inline: 10px;
   }
   .header {
@@ -138,11 +138,11 @@ button {
     line-height: 18px;
     color: #c4eb12;
   }
-  .final-results button{
+  .final-results button {
     width: 80%;
   }
   .final-results {
     width: 80%; /* Can be in percentage also. */
-  height: auto;
+    height: auto;
   }
 }

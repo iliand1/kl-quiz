@@ -11,8 +11,6 @@ import Nav from "./Components/Nav";
 
 /**
  * TODO: import theory and questions
- * TODO: styling
- * TODO: delete Restart button before shipping
  */
 
 /**
