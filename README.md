@@ -1,6 +1,6 @@
 # kl-quiz
 
-[Link](https://passive-voice-app.netlify.app/)to live website.
+[Link](https://passive-voice-app.netlify.app/) to *live website*.
 
 ## Quiz on the Passive Voice
 
