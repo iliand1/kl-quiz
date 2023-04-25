@@ -1,10 +1,10 @@
 # kl-quiz
 
-[Link](https://passive-voice-app.netlify.app/) to *live website*.
+## [Link](https://passive-voice-app.netlify.app/) to live website
 
 ## Quiz on the Passive Voice
 
-This project was for my university (2023)
+This project was for my university (2023). Course: Computer Linguistics. 8th semester
 
 ### Premise
 
@@ -12,7 +12,7 @@ Have a web app that helps students revise their theory on the use of the passive
 
 ## Results
 
-A decent React.JS app, thanks to which I remembered a lot of things.
+A decent React.JS app.
 
 ## Author and contributors
 
