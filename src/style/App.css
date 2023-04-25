@@ -1,21 +1,42 @@
 .App {
   text-align: center;
+  font-family: "Montserrat";
+  color: #c4eb12;
 }
-.headerwrapper{
-display: flex;
-justify-content: center;
+.theory {
+  color: #fafafa;
+  font-family: "Montserrat";
+  font-size: 24px;
 }
-.main{
+
+.theory-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 18px;
+  color: #c4eb12;
+}
+.headerwrapper {
+  display: flex;
+  justify-content: center;
+}
+.main {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.footer{
+.footer {
   position: absolute;
-    bottom: 0;
-    color: white;
+  bottom: 0;
+  color: white;
   height: 3rem;
   width: 100%;
   background-color: green;
@@ -32,30 +53,34 @@ justify-content: center;
   height: auto;
 
   /* Visual  */
-  background-color: gray;
+  background: #302f32;
+  border-radius: 30px;
   padding: 16px;
-  border-radius: 16px;
-  color: white;
+
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
-
+.question-card h2 {
+  color: white;
+}
+.question-text {
+  color: #c4eb12;
+  font-size: 30px;
+}
 ul {
   list-style: none;
+  padding: 0;
 }
 
 li {
   margin-top: 8px;
-  background-color: darkgray;
+  margin-bottom: 30px;
+  background-color: #232324;
   padding: 16px;
-  border: 3px solid white;
-  border-radius: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 24px;
   font-size: 20px;
-}
-
-.question-text {
-  color: darkblue;
-  font-size: 24px;
+  color: #fafafa;
 }
 
 /* Final Results  */
@@ -63,27 +88,29 @@ li {
 .final-results {
   /* Center the div  */
   margin: 0 auto;
-
+  padding: 30px;
   /* Dimensions  */
   width: 50%; /* Can be in percentage also. */
   height: auto;
   margin-top: 64px;
 
   /* Visual  */
-  background-color: gray;
+  background-color: #302f32;
   padding: 16px;
-  border-radius: 16px;
+  border-radius: 30px;
   color: white;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.final-results h2 {
+  color: #c4eb12;
 }
 
 button {
   margin-top: 10px;
   margin-inline: 20px;
-  background-color: red; /* Green */
   border: none;
-  color: white;
+  color: #1e1c1c;
   padding: 16px 24px;
   text-align: center;
   text-decoration: none;
@@ -91,4 +118,8 @@ button {
   font-size: 16px;
   font-weight: bold;
   border-radius: 24px;
+  background: #c4eb12;
+  border-radius: 19px;
+  width: 300px;
+  font-family: "Montserrat" sans-serif;
 }

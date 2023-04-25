@@ -92,7 +92,7 @@ function App() {
           {!showTheory && !showQuiz && (
             <Button name="Show Quiz" func={handleShowQuiz} />
           )}
-          <Button name="Reset" func={handleHResetElements} />
+          {/*<Button name="Reset" func={handleHResetElements} />*/}
         </div>
       </Nav>
       {/* end of navigation*/}
@@ -100,7 +100,7 @@ function App() {
       {/* start of body*/}
       <Body>
         {showTheory && (
-          <div>
+          <div className="theory-wrapper">
             <Theory />
             <Button name="Show Quiz" func={handleShowQuiz} />
           </div>
@@ -118,10 +118,6 @@ function App() {
         )}
       </Body>
       {/* end of body*/}
-
-      {/* start of footer*/}
-      <Footer />
-      {/* end of footer*/}
     </div>
   );
 }
