@@ -24,7 +24,7 @@ function Finalresults({ score, questions, restartGame, handleShowTheory }) {
     <div className="final-results">
       <h1>Final Results</h1>
       <h2>
-        {score} out of {questions.length} correct - ({percentage(score)}%)
+        {score} out of {questions.length} correct - ({percentage(score).toFixed(0)}%)
       </h2>
       <Button name="Restart game" func={restartGame} />
       {isGood(score) && <Button name="Show Theory" func={handleShowTheory} />}

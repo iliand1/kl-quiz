@@ -7,10 +7,22 @@
 .theory {
   color: #fafafa;
   font-family: "Montserrat";
-  font-size: 24px;
+  text-align: center;
+  display: flex;
+  
+  flex-direction: column;
   padding-inline: 20px;
+  
 }
-
+.theory h4{
+  font-size: 24px;
+}
+.theory h6{
+  font-size: 20px;
+}
+.theory p{
+  font-size: 16px;
+}
 .theory-wrapper {
   display: flex;
   flex-direction: column;
