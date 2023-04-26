@@ -8,17 +8,12 @@ import Button from "./Components/Button";
 import Quiz from "./Components/Quiz";
 import Body from "./Components/Body";
 import Nav from "./Components/Nav";
-
-/**
- * TODO: import theory and questions
- */
-
 /**
  * main entry point to the app
  * @author Ilian Daviaud, 409-1 (made app)
  * @author Sasha Ghuravleva, 409-1 (helped with Theory)
  * @author Nastia Maley, 409-1 (helped with Theory)
- * @author Timofei Pavlovetz, 409-1 (helped with questions)
+ * @author Timofei Pavlovetz, 409-1 (made questions)
  * @abstract A quiz app made for a university project
  * made for students to read theory and practice on
  * the topic of "The Passive Voice in English"
