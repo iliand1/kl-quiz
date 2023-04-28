@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./style/App.css";
 import Header from "./Components/Header";
 import Theory from "./Components/Theory";
@@ -73,6 +73,10 @@ function App() {
   const [showQuiz, setShowQuiz] = useState(false);
   // copying local variable of questions and scrambling after each render
   const mixedQuestions = questions.sort(() => Math.random() - 0.5);
+
+  useEffect(() => {
+    mixedQuestions = questions.sort(() => Math.random() - 0.5)
+  }, [showResults]);
   return (
     <div className="main">
       {/* start of navigation*/}
