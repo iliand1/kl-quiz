@@ -72,7 +72,7 @@ function App() {
   const [showTheory, setShowTheory] = useState(false);
   const [showQuiz, setShowQuiz] = useState(false);
   // copying local variable of questions and scrambling after each render
-  let mixedQuestions = questions.sort(() => Math.random() - 0.5);
+  const mixedQuestions = questions
 
   useEffect(() => {
     mixedQuestions = questions.sort(() => Math.random() - 0.5)
