@@ -71,12 +71,15 @@ function App() {
   const [score, setScore] = useState(0);
   const [showTheory, setShowTheory] = useState(false);
   const [showQuiz, setShowQuiz] = useState(false);
-  // copying local variable of questions and scrambling after each render
-  const mixedQuestions = questions
 
+  // copying questions to a local variable and scrambling after each render
+  let mixedQuestions = questions;
+
+  // scrambling questions with 1st render, then after quiz is reset
   useEffect(() => {
-    mixedQuestions = questions.sort(() => Math.random() - 0.5)
+    mixedQuestions = questions.sort(() => Math.random() - 0.5);
   }, [showResults]);
+
   return (
     <div className="main">
       {/* start of navigation*/}
